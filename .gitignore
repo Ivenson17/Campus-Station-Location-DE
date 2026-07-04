@@ -8,6 +8,3 @@ __pycache__/
 # VSCode
 .vscode/
 
-# Experiment Results
-results/*.png
-results/*.csv
