@@ -71,8 +71,7 @@ for idx in range(len(df)):
 
     # 计算目标函数
     Z += wi * np.sqrt(
-        (X_grid - xi) ** 2 +
-        (Y_grid - yi) ** 2
+        (X_grid - xi) ** 2 + (Y_grid - yi) ** 2
     )
     # Z为(100×100)Matrix
 

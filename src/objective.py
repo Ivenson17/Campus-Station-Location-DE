@@ -20,8 +20,7 @@ class CampusStationObjective:
         y = position[1]
 
         distances = np.sqrt(
-            (x - self.x_points) ** 2 +
-            (y - self.y_points) ** 2
+            (x - self.x_points) ** 2 + (y - self.y_points) ** 2
         )
 
         fitness = np.sum(
